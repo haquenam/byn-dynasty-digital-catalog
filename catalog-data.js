@@ -1,0 +1,62 @@
+const catalogs = [
+  {
+    id: "kidswear-may-2026",
+    title: "Kidswear May 2026",
+    description:
+      "A bright, comfortable kidswear collection featuring everyday styles for boys and girls.",
+    category: "Kidswear",
+    tags: ["kidswear", "children", "apparel", "May 2026", "wholesale", "catalog"],
+    keywords: [
+      "kidswear",
+      "boys",
+      "girls",
+      "polo shirt",
+      "chino pants",
+      "jogger",
+      "hoodie",
+      "henley",
+      "apparel",
+      "wholesale clothing",
+    ],
+    pdfPath: "assets/pdfs/kidswear-may-2026.pdf",
+    thumbnailPath: "assets/kidswear-flyer.png",
+  },
+  {
+    id: "menswear-may-2026",
+    title: "Menswear May 2026",
+    description:
+      "A polished menswear catalog with versatile casualwear and wholesale apparel options.",
+    category: "Menswear",
+    tags: ["menswear", "men", "apparel", "May 2026", "wholesale", "catalog"],
+    keywords: [
+      "menswear",
+      "men clothing",
+      "shirts",
+      "pants",
+      "casualwear",
+      "apparel",
+      "wholesale clothing",
+    ],
+    pdfPath: "assets/pdfs/menswear-may-2026.pdf",
+    thumbnailPath: "assets/kidswear-hero.png",
+  },
+  {
+    id: "womenswear-may-2026",
+    title: "Womenswear May 2026",
+    description:
+      "A modern womenswear catalog featuring easy-to-browse wholesale apparel selections.",
+    category: "Womenswear",
+    tags: ["womenswear", "women", "apparel", "May 2026", "wholesale", "catalog"],
+    keywords: [
+      "womenswear",
+      "women clothing",
+      "tops",
+      "dresses",
+      "casualwear",
+      "apparel",
+      "wholesale clothing",
+    ],
+    pdfPath: "assets/pdfs/womenswear-may-2026.pdf",
+    thumbnailPath: "assets/kidswear-hero.png",
+  },
+];
