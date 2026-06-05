@@ -96,11 +96,16 @@ main,
   border-radius: 30px;
   background: linear-gradient(135deg, rgba(255, 246, 226, 0.98), rgba(255, 255, 255, 0.94) 58%, rgba(198, 154, 70, 0.16));
   box-shadow: var(--shadow);
+  padding: 16px;
 }
 
 .hero-copy {
-  padding: 30px 24px 6px;
+  border: 1px solid rgba(198, 154, 70, 0.45);
+  border-radius: 24px;
+  background: rgba(255, 246, 226, 0.96);
+  box-shadow: 0 14px 36px rgba(8, 21, 37, 0.1);
   color: var(--navy-soft);
+  padding: clamp(24px, 5vw, 44px);
 }
 
 .eyebrow,
@@ -129,9 +134,13 @@ h1 {
   letter-spacing: -0.045em;
 }
 
+.hero h1 {
+  color: #10243c;
+}
+
 .subtitle {
   max-width: 620px;
-  color: #5d6675;
+  color: #4f5968;
   font-size: clamp(1.05rem, 3vw, 1.32rem);
   font-weight: 650;
 }
@@ -153,7 +162,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 16px 16px;
+  padding: 0;
 }
 
 .hero-media img {
@@ -368,11 +377,11 @@ h1 {
   }
 
   .hero-copy {
-    padding: 48px 0 48px 42px;
+    padding: 42px;
   }
 
   .hero-media {
-    padding: 24px 24px 24px 0;
+    padding: 0;
   }
 
   .catalog-tools {
