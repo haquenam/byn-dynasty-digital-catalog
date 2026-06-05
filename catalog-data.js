@@ -19,7 +19,7 @@ const catalogs = [
       "wholesale clothing",
     ],
     pdfPath: "assets/pdfs/kidswear-may-2026.pdf",
-    thumbnailPath: "assets/kidswear-flyer.png",
+    thumbnailPath: "assets/kidswear-hero.png",
   },
   {
     id: "menswear-may-2026",
@@ -38,7 +38,7 @@ const catalogs = [
       "wholesale clothing",
     ],
     pdfPath: "assets/pdfs/menswear-may-2026.pdf",
-    thumbnailPath: "assets/kidswear-hero.png",
+    thumbnailPath: "assets/menswear-hero.png",
   },
   {
     id: "womenswear-may-2026",
@@ -57,6 +57,6 @@ const catalogs = [
       "wholesale clothing",
     ],
     pdfPath: "assets/pdfs/womenswear-may-2026.pdf",
-    thumbnailPath: "assets/kidswear-hero.png",
+    thumbnailPath: "assets/womenswear-hero.png",
   },
 ];
