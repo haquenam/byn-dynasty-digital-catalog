@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BYN Dynasty Apparel Digital Catalog</title>
+    <meta
+      name="description"
+      content="Browse BYN Dynasty Apparel's latest menswear, womenswear, and kidswear digital catalogs for May 2026."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="BYN Dynasty Apparel Digital Catalog" />
+    <meta
+      property="og:description"
+      content="Browse our latest menswear, womenswear, and kidswear collections."
+    />
+    <meta property="og:image" content="assets/kidswear-hero.png" />
+    <meta property="og:site_name" content="BYN Dynasty Apparel" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="catalog-data.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="BYN Dynasty Apparel catalog home">
+        <img src="assets/logo.png" alt="BYN Dynasty Apparel logo" class="brand-logo" />
+      </a>
+      <nav class="quick-links" aria-label="BYN Dynasty Apparel links">
+        <a href="https://byndynastyapparel.com/">Visit Website</a>
+        <a href="https://byndynastyapparel.com/contact-us">Contact Us</a>
+        <a href="https://byndynastyapparel.com/product-catalog">Product Catalog</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Wholesale apparel catalogs</p>
+          <h1 id="page-title">BYN Dynasty Apparel Digital Catalog</h1>
+          <p class="subtitle">Browse our latest menswear, womenswear, and kidswear collections.</p>
+          <a class="hero-cta" href="#catalogs">Browse Collections</a>
+        </div>
+        <div class="hero-media">
+          <img src="assets/kidswear-hero.png" alt="Featured BYN Dynasty kidswear collection" />
+        </div>
+      </section>
+
+      <section class="catalog-tools" aria-labelledby="catalog-heading">
+        <div>
+          <p class="section-kicker">Digital book experience</p>
+          <h2 id="catalog-heading">Choose a catalog</h2>
+        </div>
+        <label class="search-label" for="catalog-search">Search catalogs</label>
+        <input
+          id="catalog-search"
+          class="search-input"
+          type="search"
+          placeholder="Search by style, category, or keyword..."
+          autocomplete="off"
+        />
+        <div class="filter-buttons" aria-label="Filter catalogs by category or tag">
+          <button class="filter-button is-active" type="button" data-filter="All">All</button>
+          <button class="filter-button" type="button" data-filter="Kidswear">Kidswear</button>
+          <button class="filter-button" type="button" data-filter="Menswear">Menswear</button>
+          <button class="filter-button" type="button" data-filter="Womenswear">Womenswear</button>
+          <button class="filter-button" type="button" data-filter="May 2026">May 2026</button>
+          <button class="filter-button" type="button" data-filter="Apparel">Apparel</button>
+          <button class="filter-button" type="button" data-filter="Wholesale">Wholesale</button>
+        </div>
+      </section>
+
+      <section id="viewer" class="viewer-section" aria-live="polite" hidden>
+        <div class="viewer-header">
+          <div>
+            <p class="section-kicker">Now viewing</p>
+            <h2 id="viewer-title">Selected Catalog</h2>
+          </div>
+          <button id="close-viewer" class="secondary-button" type="button">Close Catalog</button>
+        </div>
+        <object id="pdf-object" class="pdf-viewer" type="application/pdf" data="" aria-label="Embedded catalog PDF viewer">
+          <p>
+            Your browser may not support embedded PDFs.
+            <a id="pdf-fallback" href="#" target="_blank" rel="noopener">Open the catalog PDF directly.</a>
+          </p>
+        </object>
+      </section>
+
+      <section id="catalogs" class="catalog-grid" aria-label="Catalog cards"></section>
+      <p id="empty-state" class="empty-state" hidden>No catalogs match your search or filter.</p>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 BYN Dynasty Apparel. Browse catalogs online or download PDFs for offline viewing.</p>
+    </footer>
+  </body>
+</html>
