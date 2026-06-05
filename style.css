@@ -146,10 +146,18 @@ h1 {
   box-shadow: 0 10px 24px rgba(198, 154, 70, 0.25);
 }
 
+.hero-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px 16px;
+}
+
 .hero-media img {
   width: 100%;
-  max-height: 520px;
-  object-fit: cover;
+  max-height: 560px;
+  border-radius: 22px;
+  object-fit: contain;
 }
 
 .catalog-tools,
@@ -358,6 +366,10 @@ h1 {
 
   .hero-copy {
     padding: 48px 0 48px 42px;
+  }
+
+  .hero-media {
+    padding: 24px 24px 24px 0;
   }
 
   .catalog-tools {
